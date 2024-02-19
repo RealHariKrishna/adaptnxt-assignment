@@ -11,6 +11,7 @@ import TableCell from "@mui/material/TableCell";
 import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
+import shopify from "../images/shopify-logo.svg";
 
 function TableComponent() {
   return (
@@ -67,7 +68,7 @@ function TableComponent() {
               <Checkbox />
             </TableCell>
             <TableCell align="left" sx={{ padding: "0px" }}>
-              <img src="/public/images/shopify.png" alt="shopify" />
+              <img src={shopify} alt="shopify" height="28px" width="28px" />
             </TableCell>
             <TableCell align="left" sx={{ color: "#2196f3", padding: "0px" }}>
               #TKN20203754
@@ -110,7 +111,7 @@ function TableComponent() {
               <Checkbox />
             </TableCell>
             <TableCell align="left" sx={{ padding: "0px" }}>
-              <img alt="shopify" src="/public/shopify.png" />
+              <img alt="shopify" src={shopify} height="28px" width="28px" />
             </TableCell>
             <TableCell align="left" sx={{ color: "#2196f3", padding: "0px" }}>
               #TKN20203753
@@ -153,7 +154,7 @@ function TableComponent() {
               <Checkbox />
             </TableCell>
             <TableCell align="left" sx={{ padding: "0px" }}>
-              <img alt="shopify" src="/public/shopify.png" />
+              <img alt="shopify" src={shopify} height="28px" width="28px" />
             </TableCell>
             <TableCell align="left" sx={{ color: "#2196f3", padding: "0px" }}>
               #TKN20203752
