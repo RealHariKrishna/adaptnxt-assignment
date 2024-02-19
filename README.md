@@ -8,9 +8,9 @@ This Project Contains information about various orders in Shopify
 
 ## Technologies
 
-# MUI
+### MUI
 
-# Tailwind CSS
+### Tailwind CSS
 
 The Project is done with the MUI package for building components and Tailwind css for the styling
 
